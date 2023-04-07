@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h4 id="ush">laas</h4>
+        <script>
+          var total =88;
+          var message="hello hii bye bye";
+          var kavya="i am .....";
+          var message2;
+          document.write(message2);
+          document.write('<br>');
+          document.write(total);
+          document.write('<br>');
+          alert("be nice");
+          document.write(message);
+          document.write('<br>');
+          document.write(kavya);
+          document.write('<br>');
+          document.getElementById("ush")
+          .textContent="nice fantastic fantabulous";
+          var name=`akka`;
+          var message=`i love you ${name}`;//```````````````````(cross quote)
+          var msg3=name.concat(message); //combine 2 strings
+          var name=`hello world`;
+          var msg=`${name} i am chitti speed 1 mega hertz zeta 1 tera byte`;
+          document.write(msg);
+          document.write('<br>');
+          document.write(message);
+          document.write('<br>');
+          document.write(msg3);
+          //string length
+          var name1=`bujji`;
+          var name2=`i am me from this doing that`; 
+          //exploration of funcs
+          document.write(name1.length);
+          document.write('<br>');
+          document.write(name1.toUpperCase());
+          document.write('<br>');
+          document.write(name1.toLowerCase());
+          document.write('<br>');
+          document.write(name1.repeat(4));
+          document.write('<br>');
+          document.write(name1.indexOf('b'));
+          document.write('<br>');
+          document.write(name2.charAt(3));
+          //substring 
+          document.write(name2.substring(0,3)+"<br>");
+        
+          document.write(name2.slice(0,8));
+          //trim--extra spacing will be removed
+          var name3=`            ro ro robonge juyyyyyyyyy         `;
+          document.write(name3.trim()+"<br>");
+          
+          document.write(name2.lastIndexOf("m")+"<br>");//in from --m is at 11th position
+
+          //operators
+          var a=55;
+          var b=45;
+          document.write(`sum of ${a} and ${b} = `);
+          document.write(a+b +"<br>");
+          document.write(a+b +"<br>");
+          document.write(`difference of ${a} and ${b} = `);
+          document.write(a-b +"<br>");
+          document.write(`multiplication of ${a} and ${b} = `);
+          document.write(a*b +"<br>");
+          document.write(`division of ${a} and ${b} = `);
+          document.write(a/b +"<br>");
+          document.write(`remainder of ${a} and ${b} = `);
+          document.write(a%b +"<br>");
+          //html tag is given inside ""
+          //the js tags that are used inside script is given as ``
+
+          //if statement
+          if(a>5 || b>70){
+            document.write("Correct");
+          }
+          else{
+            document.write("WrOnG");
+          }
+          document.write("<br>");
+          if(a>5 && b>70){
+            document.write("Correct");
+            document.write("<br>");
+          }
+          else{
+            document.write("WrOnG");
+            document.write("<br>");
+          }
+
+          if(a>5 && b>70){
+            document.write("Correct");
+            document.write("<br>");
+          }
+          else if(a<70){
+            document.write("yoyoyoyoyoo");
+            document.write("<br>");
+
+          }
+         
+          else{
+            document.write("WrOnG");
+            document.write("<br>");
+          }
+          
+          //switch
+          /*switch (key) {
+            case value:
+                
+                break;
+          
+            default:
+                break;
+          }*/ 
+         /*var month='jan'
+        switch (month) (OR)*/ 
+          switch ('kuehfke') {
+            case 'jan':
+                document.write("january");
+                break;
+
+                case 'jan':
+                document.write("january");
+                break;
+
+                case 'feb':
+                document.write("february");
+                break;
+
+                case 'mar':
+                document.write("march");
+                break;
+
+                case 'apr':
+                document.write("april");
+                break;
+
+                case 'may':
+                document.write("may");
+                break;
+
+                case 'jun':
+                document.write("june");
+                break;
+
+                case 'jul':
+                document.write("july");
+                break;
+
+                case 'aug':
+                document.write("august");
+                break;
+
+                case 'sep':
+                document.write("september");
+                break;
+
+                case 'oct':
+                document.write("october");
+                break;
+
+                case 'nov':
+                document.write("november");
+                break;
+
+                case 'dec':
+                document.write("december");
+                break;
+            
+          
+            default:
+                document.write("nothing mental fellow");
+                break;
+          }
+
+          /*for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
+          }*/ 
+          var msg321="hey! i am using whtsapp";
+          for (let index = 0; index < msg321.length; index++) {
+            document.write("<br>");
+            document.write(index);
+            
+          }
+          document.write("<br>");
+          for (let index = 0; index <= 20 ; index++) {
+            if(index%2 == 0){
+                document.write("<br>");
+                document.write(index);
+            }
+            
+          }
+          document.write("<br>");
+          for (let index = 0; index <= 20 ; index++) {
+            if(index%2 != 0){
+                document.write("<br>");
+                document.write(index);
+            }
+            
+          }
+          /*while (condition) {
+            
+          }
+          do {
+            
+          } while (condition);*/ 
+
+        </script>
+    </body>
+</html>

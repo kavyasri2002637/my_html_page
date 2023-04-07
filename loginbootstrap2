@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"><!--inside head-css linking to bootstrap-->
+        <meta name="viewport"
+        content="width=device-width,initial-width=1" >
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <h1 style="color:rgb(0, 132, 255)">facebook</h1>
+            <br>
+            
+            <div style="background-color:aliceblue; width:400px; padding: 10px;" >
+                
+            <input type="text"
+            class="form-control"
+            value="Email address or phone number"
+            style="width:300px;"><br>
+
+            <input type="password"
+            class="form-control"
+            value="password"
+            style="width:300px;"><br>
+            
+        <input type="button"
+        class="btn btn-outline-primary btn-lg"
+        value="Login"
+        style="width:300px;">
+        <br><br>
+        <a href="index.html">Forgotpassword?</a><br>
+        <hr>
+         
+         
+        <input type="button"
+        class="btn btn-primary btn-sm"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+
+        <input type="button"
+        class="btn btn-primary btn-warning"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+
+        <input type="button"
+        class="btn btn-primary btn-danger"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+
+        <input type="button"
+        class="btn btn-primary btn-dark"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+
+        <input type="button"
+        class="btn btn-primary btn-info"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+
+        <input type="button"
+        class="btn btn-primary btn-outline-success"
+        value="Create account"
+        style="width:550px; background-color:green; color:white;"><br>
+
+        </div>
+        
+        
+
+        
+
+    <!--before body-js linking-->
+       <script src="js/bootstrap.min.js">
+       </script>
+
+<p class="text-primary">This is a paragraph</p>
+<p class="text-success">This is a paragraph</p>
+<p class="text-warning">This is a paragraph</p>
+<p class="text-danger">This is a paragraph</p>
+<p class="text-info">This is a paragraph</p>
+<p class="text-dark">This is a paragraph</p>
+<!--opacity-->
+<p class="text-black-50">This is a paragraph</p>
+    <p class="text-white-50">AKKA I LOVE YOU
+    </p>
+    <p class="h1" style="color:blue;">This is a paragraph</p>
+    <p class="h2" style="color:blueviolet">This is a paragraph</p>
+    <p class="h3">This is a paragraph</p>
+    <p class="h4">This is a paragraph</p>
+    <p class="h5">This is a paragraph</p>
+    <p class="display-1">This is a paragraph</p>
+    <p class="display-6">This is a paragraph</p>
+    <div style="margin:30px; width:100px;">
+    <ul class="list-group list-group-flush">
+
+        <li  class="list-group-item active">first</li>
+            <li  class="list-group-item">second</li>
+                <li  class="list-group-item disabled">third</li>
+                <ul class="list-group list-group-number">
+
+                    <li  class="list-group-item active">first</li>
+                        <li  class="list-group-item">second</li>
+                            <li  class="list-group-item disabled">third</li>
+                            </ul>
+
+                            <ul class="list-group list-group-flush">
+
+                                <li  class="list-group-item">second</li>
+                                <li  class="list-group-item disabled">third</li>
+                                        </ul>
+                            
+          <ul class="list-group list-group-horizontal">
+            <li  class="list-group-item">second</li>
+            <li  class="list-group-item disabled">third</li>
+          </ul>
+            
+            
+
+       
+    </ul></div>
+    
+    
+    
+
+
+       </center>
+    </body>
+</html>
+

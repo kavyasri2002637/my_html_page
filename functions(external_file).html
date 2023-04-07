@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+        <meta charset="utf-8">
+        <script src="myscript.js"></script>   <!--to link from one file to other-->
+    </head>
+    <body>
+        <h1>HELLO WORLD</h1>
+
+        <input type="text" id="user_name">
+        <input type="button" 
+        value="submit" onclick="f1()"> <!--input inside body tag-->
+        <p id="result"></p>
+
+        <input type="text" id="user_name1">
+        <input type="button" 
+        value="submit" onclick="f2()"> <!--input inside body tag-->
+        <p id="result"></p>
+
+        <script>
+
+         function f2(){
+            var name=document.getElementById("user_name1");
+            document.getElementById("result").textContent = name.value;
+         }
+    </script>
+    </body> 
+</html>

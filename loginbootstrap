@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"><!--inside head-css linking to bootstrap-->
+        <meta name="viewport"
+        content="width=device-width,initial-width=1" >
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <h1 style="color:rgb(0, 132, 255)">facebook</h1>
+            <br>
+            
+            <div style="background-color:aliceblue; width:400px; padding: 10px;" >
+                
+            <input type="text"
+            class="form-control"
+            value="Email address or phone number"
+            style="width:300px;"><br>
+
+            <input type="password"
+            class="form-control"
+            value="password"
+            style="width:300px;"><br>
+            
+        <input type="button"
+        class="btn btn-outline-primary"
+        value="Login"
+        style="width:300px;">
+        <br><br>
+        <!--# is dummy link-->
+        <a href="#" class="btn btn-link">Forgotpassword?</a><br>
+        <hr>
+         
+         
+        <input type="button"
+        class="btn btn-primary"
+        value="Create account"
+        style="width:300px; background-color:green; color:white;"><br>
+        <!--before body-js linking-->
+       <script src="js/bootstrap.min.js">
+    </script>
+    
+    </center>
+ </body>
+</html>
+

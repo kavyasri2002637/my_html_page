@@ -1,0 +1,100 @@
+
+.t{
+    color:blueviolet;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    color: red;
+}
+.div1{
+    background-color:rgb(165, 163, 42);
+    color:blanchedalmond;
+    border:6px solid black;
+    width:700px;
+    box-shadow: 10px 10px 25px red;
+    padding-left:30px;
+    margin-left:30px;
+    /*animation: bgchange 5s infinite;*/
+    
+}
+.div2{
+    background-color:blue;
+    color:green;
+    border:6px dotted red;
+    width:700px;
+    animation: fontchange 5s infinite;
+
+
+}
+@keyframes bgchange{
+    from {background-color: brown;}
+    to {background-color: blueviolet;}
+}
+@keyframes fontchange{
+    from {font-size: 40px;}
+    to {font-size: 70px;}
+}
+.horizontalmenu li{
+    display: inline;
+    padding: 20px
+}
+.div3{
+    background-color:blue;
+    border:8px solid black;
+    width:300px;
+    height:300px;
+}
+.div4{
+    background-color:bisque;
+    border:8px solid grey;;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.div5{
+    
+   
+    background-color:bisque;
+    border:3px solid grey;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+    
+}
+.div6{
+    
+   
+    background-color:bisque;
+    border:3px solid grey;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    
+    
+    
+}
+.div7{
+    background-color: white(255, 0, 0);
+    color:black;
+   
+}
+.button{
+    background-color:white;
+    border:none;
+    color:black;
+    padding:15px 32px;
+    text-align:center;
+    font-size:40px;
+    display:inline-block
+}
+.center{
+    padding-right: 70px;
+}
+
+
+
+
